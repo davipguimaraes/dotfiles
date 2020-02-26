@@ -5,4 +5,4 @@
 ./php.sh
 ./editor.sh
 
-./cleanup.sh
+../../install/ubuntu/cleanup.sh
