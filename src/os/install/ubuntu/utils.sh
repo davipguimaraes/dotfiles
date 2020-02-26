@@ -55,12 +55,7 @@ install_snap() {
     declare -r PACKAGE="$2"
     declare -r PACKAGE_READABLE_NAME="$1"
 
-    execute "sudo snap install  -qqy $EXTRA_ARGUMENTS $PACKAGE" "$PACKAGE_READABLE_NAME"
-    #           suppress output ─┘|
-    #     assume "yes" as the    │
-    #   answer to all prompts ──┘
-
-
+    execute "sudo snap install $EXTRA_ARGUMENTS $PACKAGE" "$PACKAGE_READABLE_NAME"
 }
 
 package_is_installed() {
