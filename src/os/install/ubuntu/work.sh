@@ -12,15 +12,19 @@ printf "\n"
 
 if ! package_is_installed "sublime-text-installer"; then
 
-    add_ppa "webupd8team/sublime-text-3" \
-        || print_error "Sublime text (add PPA)"
+    add_key "https://download.sublimetext.com/sublimehq-pub.gpg " \
+        || print_error "Sublime text (add key)"
+
+    add_to_source_list "https://download.sublimetext.com/ apt/stable/" "sublime-text.list" \
+        || print_error "Sublime text (add to package resource list)"
 
     update &> /dev/null \
         || print_error "Sublime text (resync package index files)"
 
 fi
 
-install_package "Sublime text" "sublime-text-installer"
+install_package "" "apt-transport-https"
+install_package "Sublime text" "sublime-text"
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -48,7 +52,7 @@ install_snap "Spotify" "spotify"
 
 printf "\n"
 
-install_snap "Slack" "slack"
+install_snap "Slack" "slack" "--classic"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
