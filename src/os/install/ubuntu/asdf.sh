@@ -23,7 +23,7 @@ install_asdf_plugin() {
 
     print_in_green "$PACKAGE_READABLE_NAME"
     execute \
-        "$HOME/.asdf/asdf.sh plugin-add $PACKAGE $EXTRA_ARGUMENTS"
+        "asdf plugin-add $PACKAGE $EXTRA_ARGUMENTS"
 
 }
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -35,9 +35,9 @@ install_asdf_add_version() {
     declare -r PACKAGE_READABLE_NAME="$1"
 
     execute \
-        "$EXTRA_ARGUMENTS $HOME/.asdf/asdf.sh install $PACKAGE $VERSION" \
+        "$EXTRA_ARGUMENTS asdf install $PACKAGE $VERSION" \
         "$PACKAGE_READABLE_NAME" \
-        "$HOME/.asdf/asdf.sh global $PACKAGE $VERSION"
+        "asdf global $PACKAGE $VERSION"
 
 }
 
