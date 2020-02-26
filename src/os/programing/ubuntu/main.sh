@@ -8,7 +8,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 update
 upgrade
 
-./asdf.sh
+./asdf_plugins.sh
 ./php.sh
 ./editor.sh
 

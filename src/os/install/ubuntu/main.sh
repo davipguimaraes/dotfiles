@@ -23,7 +23,7 @@ upgrade
 ./misc_tools.sh
 
 ./appearance.sh
-./../npm.sh
+# ./../npm.sh
 
 ./tmux.sh
 ./../vim.sh
