@@ -13,18 +13,21 @@ upgrade
 
 ./git.sh
 ./asdf.sh
+
 ./browsers.sh
+./work.sh
+
 ./compression_tools.sh
 ./image_tools.sh
 ./misc.sh
 ./misc_tools.sh
 
-./work.sh
+./appearance.sh
+./../npm.sh
+
 ./tmux.sh
 ./../vim.sh
-./appearance.sh
 
 ./cleanup.sh
 
 # ./../nvm.sh
-# ./../npm.sh

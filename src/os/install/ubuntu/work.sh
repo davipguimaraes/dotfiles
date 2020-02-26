@@ -32,9 +32,7 @@ install_package "Sublime text" "sublime-text"
 printf "\n"
 
 install_snap "VSCode" "code" "--classic"
-
-cat ../../../vscode/extensions.list | tr \\n \\0 | xargs -0 -n 1 code --install-extension
-echo "Extensions VSCode imported successfully!"
+execute "cat ../../../vscode/extensions.list | tr \\n \\0 | xargs -0 -n 1 code --install-extension" "Extensions VSCode"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
