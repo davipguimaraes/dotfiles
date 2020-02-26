@@ -1,7 +1,8 @@
 #!/bin/bash
 
 cd "$(dirname "${BASH_SOURCE[0]}")" \
-    && . "../../install/ubuntu/utils.sh"
+    && . "../../install/ubuntu/utils.sh" \
+    && . "./"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
