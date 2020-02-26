@@ -12,14 +12,18 @@ upgrade
 ./build-essentials.sh
 
 ./git.sh
-./../nvm.sh
 ./browsers.sh
 ./compression_tools.sh
 ./image_tools.sh
 ./misc.sh
 ./misc_tools.sh
-./../npm.sh
+
+./work.sh
 ./tmux.sh
 ./../vim.sh
+./appearance.sh
 
 ./cleanup.sh
+
+# ./../nvm.sh
+# ./../npm.sh
