@@ -12,7 +12,7 @@ printf "\n"
 
 if ! package_is_installed "sublime-text-installer"; then
 
-    add_key "https://download.sublimetext.com/sublimehq-pub.gpg " \
+    add_key "https://download.sublimetext.com/sublimehq-pub.gpg" \
         || print_error "Sublime text (add key)"
 
     add_to_source_list "https://download.sublimetext.com/ apt/stable/" "sublime-text.list" \
