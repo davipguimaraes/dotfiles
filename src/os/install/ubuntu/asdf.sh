@@ -13,8 +13,8 @@ install_asdf() {
         "git clone https://github.com/asdf-vm/asdf.git $HOME/.asdf --branch v0.7.6" \
         "$1"
 
-    execute "echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc"
-    execute "echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc"
+    echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
+    echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 }
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
