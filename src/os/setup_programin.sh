@@ -6,4 +6,4 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 print_in_purple "\n • Installs\n\n"
 
-"./install/$(get_os)/programing/main.sh"
+"./programing/$(get_os)/main.sh"

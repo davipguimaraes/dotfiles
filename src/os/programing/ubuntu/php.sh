@@ -1,9 +1,8 @@
 #!/bin/bash
 
 cd "$(dirname "${BASH_SOURCE[0]}")" \
-    && . "../../../utils.sh" \
+    && . "../../install/ubuntu/utils.sh" \
     && . "../utils.sh"
-
 
 
 print_in_purple "\n   Work web - PHP Mysql\n\n"
