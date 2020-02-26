@@ -1,0 +1,61 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Ayu Mirage",
+    "workbench.startupEditor": "none",
+    "git.ignoreMissingGitWarning": true,
+    "git.autofetch": true,
+    "sublimeTextKeymap.promptV3Features": true,
+    "git.enableSmartCommit": true,
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.showWelcomeMessage": false,
+    "window.menuBarVisibility": "default",
+    "editor.renderControlCharacters": true,
+    "files.autoSave": "off",
+    "terminal.integrated.rendererType": "dom",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontSize": 13,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[yaml]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4,
+        "editor.autoIndent": false
+    },
+    "editor.accessibilitySupport": "off",
+    "editor.rulers": [
+        90
+    ],
+    "files.associations": {
+        "*.svg": "html",
+        "*.template":"liquid"
+    },
+    "prettier.eslintIntegration": true,
+    "breadcrumbs.enabled": true,
+    "[scss]": {
+        "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    },
+    "extensions.ignoreRecommendations": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liquid.format": true,
+    "gitlens.defaultDateFormat": "DD/MM/YY"
+}
