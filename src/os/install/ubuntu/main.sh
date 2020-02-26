@@ -12,6 +12,7 @@ upgrade
 ./build-essentials.sh
 
 ./git.sh
+./asdf.sh
 ./browsers.sh
 ./compression_tools.sh
 ./image_tools.sh
