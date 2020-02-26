@@ -13,6 +13,8 @@ install_asdf() {
         "git clone https://github.com/asdf-vm/asdf.git $HOME/.asdf --branch v0.7.6" \
         "$1"
 
+    execute "echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc"
+    execute "echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc"
 }
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -22,9 +24,9 @@ install_asdf_plugin() {
     declare -r PACKAGE="$2"
     declare -r PACKAGE_READABLE_NAME="$1"
 
+    print_in_green "$PACKAGE_READABLE_NAME"
     execute \
-        "asdf plugin-add $PACKAGE $EXTRA_ARGUMENTS" \
-        "$PACKAGE_READABLE_NAME"
+        "asdf plugin-add $PACKAGE $EXTRA_ARGUMENTS"
 
 }
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
