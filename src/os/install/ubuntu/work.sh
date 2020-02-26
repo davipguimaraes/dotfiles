@@ -10,7 +10,7 @@ printf "\n"
 
 if ! package_is_installed "sublime-text-installer"; then
 
-    add_ppa "ppa:webupd8team/sublime-text-3" \
+    add_ppa "webupd8team/sublime-text-3" \
         || print_error "Sublime text (add PPA)"
 
     update &> /dev/null \

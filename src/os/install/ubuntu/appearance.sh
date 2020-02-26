@@ -10,7 +10,7 @@ printf "\n"
 
 if ! package_is_installed "flat-remix-gnome"; then
 
-    add_ppa "ppa:daniruiz/flat-remix" \
+    add_ppa "daniruiz/flat-remix" \
         || print_error "Flat remix (add PPA)"
 
     update &> /dev/null \
@@ -26,7 +26,7 @@ printf "\n"
 
 if ! package_is_installed "adapta-gtk-theme"; then
 
-    add_ppa "ppa:tista/adapta" \
+    add_ppa "tista/adapta" \
         || print_error "Flat remix (add PPA)"
 
     update &> /dev/null \
