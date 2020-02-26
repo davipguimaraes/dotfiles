@@ -44,7 +44,7 @@ install_asdf_add_version() {
 
 main() {
 
-    print_in_purple "\n   asdf\n\n"
+    print_in_purple "\n   ASDF\n\n"
     install_asdf "ASDF v0.7.6"
 
     print_in_purple "\n   asdf dependencias \n\n"
