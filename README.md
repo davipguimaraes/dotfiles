@@ -33,7 +33,7 @@ To set up the `dotfiles` run the appropriate snippet in the terminal:
 
 | OS | Snippet |
 |:---|:---|
-| `Ubuntu` | `bash -c "$(wget -qO - https://raw.github.com/davipguimaraes/dotfiles/master/src/os/setup.sh)"` |
+| `Ubuntu` | `bash -c "$(wget -qO - https://raw.githubusercontent.com/davipguimaraes/dotfiles/master/src/os/setup.sh?token=AD3VE4GY7DFKSRWD3YSWJ5C6L7AMK)"` |
 
 That's it! ✨
 
