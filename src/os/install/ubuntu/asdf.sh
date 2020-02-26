@@ -65,6 +65,7 @@ main() {
     print_in_purple "\n   asdf plugins \n\n"
 
     install_asdf_plugin "asdf-vm/nodejs" "nodejs" "https://github.com/asdf-vm/asdf-nodejs.git"
+    execute "bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring"
     install_asdf_add_version "node@12.16.1" "nodejs" "12.16.1"
 
     install_asdf_plugin "halcyon/asdf-java" "java" "https://github.com/halcyon/asdf-java.git"
