@@ -9,8 +9,8 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 update
 upgrade
 
-# ./asdf
-# ./php
-# ./editor
+./asdf
+./php
+./editor
 
-# ./cleanup.sh
+./cleanup.sh
