@@ -37,6 +37,7 @@ install_asdf_add_version() {
 
 
 main() {
+
     print_in_purple "\n   asdf plugins \n\n"
 
     install_asdf_plugin "asdf-vm/nodejs" "nodejs" "https://github.com/asdf-vm/asdf-nodejs.git"
